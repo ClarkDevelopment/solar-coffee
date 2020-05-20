@@ -25,8 +25,7 @@ namespace SolarCoffee.Data.Models {
         [MaxLength(64)]
         public string Country { get; set; }
         
-        [MaxLength(1)]
-        public byte PrimaryAddress { get; set; }
+        public bool PrimaryAddress { get; set; }
         
         public Customer Customer { get; set; }
         
