@@ -10,8 +10,8 @@ using SolarCoffee.Data;
 namespace SolarCoffee.Data.Migrations
 {
     [DbContext(typeof(SolarDbContext))]
-    [Migration("20200520204502_ProductInventorySales")]
-    partial class ProductInventorySales
+    [Migration("20200521164042_InitialMigration")]
+    partial class InitialMigration
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {

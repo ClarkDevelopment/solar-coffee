@@ -1,7 +1,7 @@
 ﻿using System;
 
 namespace SolarCoffee.Data.Models {
-    public class ProductInventory {
+    public class ProductInventory { 
         public int Id { get; set; }
         public DateTime CreatedOn { get; set; }
         public DateTime UpdatedOn { get; set; }
