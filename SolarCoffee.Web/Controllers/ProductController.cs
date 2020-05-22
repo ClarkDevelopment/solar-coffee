@@ -21,7 +21,7 @@ namespace SolarCoffee.Web.Controllers {
             _logger.LogInformation("Getting all products");
             var products = _productService.GetAllProducts();
             
-            //Shorthand insead of using a lambda in the select
+            //Shorthand instead of using a lambda in the Select
             var productViewModels = products.Select(ProductMapper.SerializeProductModel);
             return Ok(productViewModels);
         }
