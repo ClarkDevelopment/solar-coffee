@@ -42,7 +42,7 @@ namespace SolarCoffee.Services.Customer {
                 };
 
             }
-            catch (Exception e) {
+            catch (Exception) {
                 return new ServiceResponse<Data.Models.Customer> {
                     Data = null,
                     Time = DateTime.Now,

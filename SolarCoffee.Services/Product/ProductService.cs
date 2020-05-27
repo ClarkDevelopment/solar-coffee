@@ -57,7 +57,7 @@ namespace SolarCoffee.Services.Product {
                     IsSuccess = true
                 };
             }
-            catch (Exception e) {
+            catch (Exception) {
                 return new ServiceResponse<Data.Models.Product> {
                     Data = product,
                     Time = DateTime.Now,
@@ -85,7 +85,7 @@ namespace SolarCoffee.Services.Product {
                     IsSuccess = true
                 };
             }
-            catch (Exception e) {
+            catch (Exception) {
                 return new ServiceResponse<Data.Models.Product> {
                     Data = null,
                     Time = DateTime.UtcNow,
