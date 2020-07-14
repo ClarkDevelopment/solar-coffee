@@ -32,7 +32,7 @@ namespace SolarCoffee.Web.Controllers
             return Ok(newCustomer);
         }
         
-        [HttpGet("/api/customer")]
+        [HttpGet("/api/customer/{id}")]
         public ActionResult GetCustomerById(int id)
         { 
             _logger.LogInformation("Retrieving customers list");
