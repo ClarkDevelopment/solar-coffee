@@ -30,7 +30,8 @@ namespace SolarCoffee.Services.Customer {
         /// <param name="customer"></param>
         /// <returns>ServiceResponse<Customer></returns>
         public ServiceResponse<Data.Models.Customer> CreateCustomer(Data.Models.Customer customer) {
-            try {
+            try
+            {
                 _db.Customers.Add(customer);
                 _db.SaveChanges();
                 

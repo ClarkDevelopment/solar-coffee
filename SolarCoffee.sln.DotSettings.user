@@ -1,4 +1,8 @@
 ﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=6df248a7_002D54d8_002D444c_002D8b1b_002De03b0ff9f991/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="All tests from Solution" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
-  &lt;Solution /&gt;&#xD;
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=4942f902_002Dbcc7_002D427b_002Db644_002Dd4ae50d8f994/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="CustomerService_CreateCustomer_GivenNewCustomerObject" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;xUnit::D7E1697D-57AA-40EE-9555-DE006F2F365B::.NETCoreApp,Version=v3.1::SolarCoffee.Test.TestCustomerService.CustomerService_CreateCustomer_GivenNewCustomerObject&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::D7E1697D-57AA-40EE-9555-DE006F2F365B::.NETCoreApp,Version=v3.1::SolarCoffee.Test.TestCustomerService.CustomerService_DeleteCustomer_GivenValidCustomerId&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::D7E1697D-57AA-40EE-9555-DE006F2F365B::.NETCoreApp,Version=v3.1::SolarCoffee.Test.TestCustomerService.CustomerService_OrdersByLastName_WhenGetAllCustomersInvoked&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
